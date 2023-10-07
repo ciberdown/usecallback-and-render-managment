@@ -1,0 +1,35 @@
+.App {
+}
+
+.counter {
+  color: rgb(63, 99, 8);
+  background-color: yellow;
+  display: inline-block;
+  padding: 5px;
+  transition: background-color 1s ease, color 1s ease;
+}
+.counter.counter-highlight {
+  color: black;
+  background-color: rgb(241, 180, 180);
+}
+
+h3 > p,
+h2 > p,
+h1 > p {
+  font-weight: lighter;
+  display: inline;
+  font-size: 1rem;
+  color: grey;
+}
+
+.footer {
+  display: inline;
+  color: red;
+  background-color: none; /* Adjust the duration as needed */
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.footer.changing {
+  color: black;
+  background-color: #ff6e4e;
+}
